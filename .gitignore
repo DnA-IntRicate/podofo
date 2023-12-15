@@ -22,3 +22,43 @@ x86/
 .DS_Store
 __pycache__/
 *.code-workspace
+
+# Visual Studio clutter
+_ReSharper*
+*.sdf
+*.suo
+*.dir
+*.vcxproj
+*.filters
+*.user
+*.sln
+.vs
+CMakeSettings.json
+Win32
+x64
+Debug
+Release
+MinSizeRel
+RelWithDebInfo
+*.opensdf
+
+# macOS clutter
+.DS_Store
+
+# Makefile generator clutter
+Makefile
+
+# Ninja generator clutter
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# CMake clutter
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+cmake_install.cmake
+cmake_uninstall.cmake
